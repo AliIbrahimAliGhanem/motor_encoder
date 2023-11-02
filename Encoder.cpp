@@ -43,6 +43,6 @@ void setMotor(int dir, int in1, int in2){
  int calculated distance (){
 total_count=count;
 count=new_count;
-int distance = (360.0/pulse_per_revelution)* _totalCount;
+int distance = (360.0/pulse_per_revelution)* totalCount;
     return distance;
  }
